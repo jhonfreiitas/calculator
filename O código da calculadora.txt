@@ -1,0 +1,25 @@
+O código da calculadora ( calculadora.py) foi desenvolvido para oferecer uma interface simples de terminal para realizar operações matemáticas básicas. Abaixo está uma descrição de suas partes principais:
+
+Funções matemáticas:
+
+somar(x, y): Retorna a soma de dois números.
+
+subtrair(x, y): Retorna a diferença entre dois números.
+
+multiplicar(x, y): Retorna o produto de dois números.
+
+dividir(x, y): Retorna o quociente entre dois números, mas verifica se o divisor não é zero para evitar erros.
+
+Função principal - calcular():
+
+Exibe as opções disponíveis para o usuário.
+
+Lê a escolha do usuário e os números para a operação.
+
+Realiza a operação correspondente com base na escolha e exibe o resultado.
+
+Mecanismo de proteção:
+
+Verifica se o divisor na operação de divisão é diferente de zero para evitar erros de execução.
+
+Valida a escolha do usuário para garantir que seja uma opção válida.
